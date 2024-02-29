@@ -10,9 +10,18 @@ type Employee = {
 	address: { city: string; country: string };
 };
 
-const emp: Employee = {
+const emp1: Employee = {
 	id: 1,
 	name: "bishal",
+	salary: 50000,
+	address: {
+		city: "ktm",
+		country: "nepal",
+	},
+};
+const emp2: Employee = {
+	id: 2,
+	name: "kunwar",
 	salary: 50000,
 	address: {
 		city: "ktm",
