@@ -1,7 +1,7 @@
 //# Tuples in TypeScript
 //? Tuples are a type of array that allows you to express an array where the type of a fixed number of elements is known, but need not be the same.
 
-//# make tuple readonly  so that
+//# make tuple readonly  so that new values cannot be added to the instances of tuples.
 type Product = readonly [string, string, number, number];
 const p1: Product = ["Acer Nitro 5", "laptop", 120000, 5];
 
